@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+/* Landing page */
+header {
+  margin-bottom: 4rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.essays-list {
+  list-style: none;
+}
+
+.essays-list li {
+  margin-bottom: 2.5rem;
+}
+
+.essays-list a {
+  color: #e0e0e0;
+  text-decoration: none;
+  display: block;
+}
+
+.essays-list a:hover {
+  color: #ffffff;
+}
+
+.essay-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.3rem;
+}
+
+.essay-date {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Essay page */
+.essay {
+  margin-top: 2rem;
+}
+
+.essay h1 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.essay .date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.essay-content p {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.essay-content p:last-child {
+  margin-bottom: 0;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 3rem;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back:hover {
+  color: #e0e0e0;
+}
+
+/* Typography refinements */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
+  color: #ffffff;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 2rem 0;
+}
+
+::selection {
+  background: #333;
+  color: #fff;
+}
